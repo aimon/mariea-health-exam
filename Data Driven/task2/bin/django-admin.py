@@ -1,5 +1,0 @@
-#!/Users/aimon/Desktop/Victor Raymond Bio/Data Driven/task2/bin/python
-from django.core import management
-
-if __name__ == "__main__":
-    management.execute_from_command_line()
