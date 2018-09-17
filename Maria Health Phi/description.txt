@@ -1,0 +1,40 @@
+'x' is the positive integer number.
+'first' holds the last value of the series
+'second' will be the holder of the next value to be able to pass it in next iteration
+###### The code ##########
+var x = 11
+var first = 1
+var second = 0
+
+Check first if 'x' is not multiple of 3 or 5
+The first few numbers of the series are 1, 1, 2, 3, 5, 8
+Every other term is the sum of the previous two terms, e.g., 8 = 3 + 5
+###### The code ##########
+if(x % 3 && x % 5) {
+  for (var i = 1; i <= x; i++) {
+    var nxt = first + second
+    first = second
+    second = nxt
+    console.log(nxt)
+  }
+}
+
+Print 'Maria Health' if number 'x' multiples with 3 and 5
+###### The code ##########
+else if(x % 3 == 0 && x % 5 == 0) {
+  console.log('Maria Health')
+} 
+
+Print 'Maria' if number 'x' multiples with 3 and Print 'Health' if number 'x' multiples with 5
+###### The code ##########
+else {
+  // Print 'Maria' if number 'x' multiples with 3
+  if(x % 3 == 0) {
+    console.log('Maria')
+  }
+  // Print 'Health' if number 'x' multiples with 5
+  if(x % 5 == 0) {
+    console.log('Health')
+  }
+}
+
