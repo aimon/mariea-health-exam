@@ -1,0 +1,9 @@
+version: '2'
+services:
+  fda:
+    container_name: fda
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - .:/usr/src/app

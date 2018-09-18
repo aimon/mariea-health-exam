@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06e0db91-3165-400b-9ef3-f59f8bd78f25" name="Default Changelist" comment="" />
+    <list default="true" id="06e0db91-3165-400b-9ef3-f59f8bd78f25" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,22 +14,23 @@
     <session id="-1289814651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="22" />
+          <entry key="py" value="24" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -49,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/marketplace/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
+            <state relative-caret-position="1080">
+              <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <marker date="1537218959015" expanded="true" signature="2400:2403" ph="..." />
@@ -59,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/marketplace/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="266">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -80,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/marketplace/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1537214950433" expanded="true" signature="114:1635" ph="..." />
@@ -95,10 +98,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/marketplace/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/marketplace/tests.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/marketplace/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="99" column="13" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -119,6 +132,9 @@
       <replace>PlanTerm</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -138,11 +154,13 @@
     <option name="width" value="1680" />
     <option name="height" value="953" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +183,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +215,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -241,12 +257,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/marketplace/migrations/0002_auto_20180915_2146.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/marketplace/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/marketplace/migrations/0002_auto_20180915_2146.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/django/contrib/admin/decorators.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -286,28 +297,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/marketplace/views.py">
+    <entry file="file://$PROJECT_DIR$/app/marketplace/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="99" column="13" selection-start-line="99" selection-start-column="8" selection-end-line="99" selection-end-column="13" />
+        <state relative-caret-position="1080">
+          <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/marketplace/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1537218959015" expanded="true" signature="2400:2403" ph="..." />
           </folding>
         </state>
       </provider>
@@ -319,25 +318,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/marketplace/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <marker date="1537218959015" expanded="true" signature="2400:2403" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/marketplace/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1537214950433" expanded="true" signature="114:1635" ph="..." />
             <marker date="1537214950433" expanded="true" signature="2513:2514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/marketplace/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/marketplace/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/marketplace/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/marketplace/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
