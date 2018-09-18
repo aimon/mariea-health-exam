@@ -8,5 +8,10 @@ A. Users should be able:
     7. Pay for the cart                                 - 'api/cart/<int:pk>/paid' or 'api/user/<int:user_id>/cart/<int:pk>/'
         - Just create an endpoint that when invoked, automatically marks the cart as paid
 
-B. You can use any protocol/paradigm for your API, and you can third party libraries when creating the API
+b. You can use any protocol/paradigm for your API, and you can third party libraries
+when creating the API
+    i. Describe your API and the decisions you took when designing it
+
+Answer:
+I used django generics APIView because it's easier to implement and it saves a lot of time to code vs the normal APIView.
 

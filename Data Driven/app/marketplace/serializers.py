@@ -3,6 +3,7 @@ from .models import Provider, PaymentTerm, Plan, PlanTerm, User, Cart, CartItem
 from django.core.exceptions import ObjectDoesNotExist
 import logging
 
+
 class ProviderSerializer(serializers.ModelSerializer):
     class Meta:
         model = Provider

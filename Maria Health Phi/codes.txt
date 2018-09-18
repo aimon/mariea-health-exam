@@ -1,0 +1,67 @@
+// Javascript
+
+var x = 11
+var first = 1
+var second = 0
+if(x % 3 && x % 5) {
+  for (var i = 1; i <= x; i++) {
+    var nxt = first + second
+    first = second
+    second = nxt
+    console.log(nxt)
+  }
+} else if(x % 3 == 0 && x % 5 == 0) {
+  console.log('Maria Health')
+} else {
+  if(x % 3 == 0) {
+    console.log('Maria')
+  }
+  if(x % 5 == 0) {
+    console.log('Health')
+  }
+}
+
+
+// PHP
+
+<?php
+$x = 11;
+$first = 1;
+$second = 0;
+if($x % 3 && $x % 5) {
+  for ($i = 1; $i <= $x; $i++) {
+    $nxt = $first + $second;
+    $first = $second;
+    $second = $nxt;
+    echo $nxt . "\n";
+  }
+} else if($x % 3 == 0 && $x % 5 == 0) {
+  echo "Maria Health";
+} else {
+  if($x % 3 == 0) {
+    echo "Maria";
+  }
+  if($x % 5 == 0) {
+    echo "Health";
+  }
+}
+
+// Python
+
+x = 11
+first = 1
+second = 0
+if x % 3 and x % 5:
+    for i in range(0, x):
+        nxt = first + second
+        first = second
+        second = nxt
+        print(nxt)
+elif x % 3 == 0 and x % 5 == 0:
+    print('Maria Health')
+else:
+    if x % 3 == 0:
+      print('Maria')
+
+    if x % 5 == 0:
+      print('Health')

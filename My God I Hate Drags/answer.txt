@@ -1,0 +1,23 @@
+2. How is Maria Health’s method of loading pages better than the traditional method? How is it worse? When should each be used over the other?
+
+How is Maria Health’s method of loading pages better than the traditional method?
+
+Answer:
+MariaHealth uses AJAX and It Reduce the server traffic, 
+It saves memory when the data is fetched from the same page, 
+and faster retrieval of data.
+
+
+How is it worse?
+
+Answer:
+Search engines cannot index an AJAX applications.
+Too many handlings in slow and unreliable network connection.
+JavaScript disabled browsers cannot use the application.
+
+
+When should each be used over the other?
+
+Answer:
+In my opinion, each page must be loaded in the server, and we can use AJAX in a small part of
+the application for example a search bar with an autocomplete or suggestion that fetched through the server.

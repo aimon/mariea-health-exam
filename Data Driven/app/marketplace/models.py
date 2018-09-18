@@ -41,6 +41,9 @@ class PlanTerm(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    class Meta:
+        unique_together = ('plan', 'payment_term',)
+
     def __str__(self):
         return self.plan.name + ' - ' + self.payment_term.name + ' (' + str(self.price) + ')'
 
